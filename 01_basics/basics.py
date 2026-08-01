@@ -12,4 +12,14 @@ else:
     print("assuming not student")
 city = input("Enter your hometown: ")
 print(type(city), type(is_student), type(name))
-print(f"my name is {name}, I am {age} years old, I am {height_meter:.2f} meters tall, I was born in {city} and my student_status is {is_student}")
+print(f"""
+------ Profile ------
+
+Name      : {name}
+Age       : {age}
+Height    : {height_meter:.2f} m
+City      : {city}
+Student   : {is_student}
+
+---------------------
+""")
