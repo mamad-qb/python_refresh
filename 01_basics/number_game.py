@@ -1,3 +1,16 @@
+"""
+Guess The Number
+
+A console-based guessing game with
+multiple difficulty levels.
+
+Features:
+- Three difficulty levels
+- Hot/Warm/Cold hints
+- Input validation
+- Replay option
+"""
+
 import random
 import string
 
@@ -15,16 +28,16 @@ def select_number(level):
 while True:
 
     while True:
-        number_guess = 0
+        max_atttempts = 0
         difficulty = int(input("" \
         "1/ easy (1-50) 10 chance \n2/ hard (1-100) 8 chance \n3/ impossible (1-200) 6 chance: "))
         if difficulty in (1, 2, 3):
             if difficulty == 1:
-                number_guess = 10
+                max_atttempts = 10
             elif difficulty == 2:
-                number_guess = 8
+                max_atttempts = 8
             elif difficulty == 3:
-                number_guess = 6
+                max_atttempts = 6
             break
         else:
             print("please insert a number in range 1 - 3")
@@ -32,7 +45,7 @@ while True:
     random_number = select_number(difficulty)
     won = False
     gussed = 0
-    while gussed < number_guess:
+    while gussed < max_atttempts:
         gussed += 1
         while True:
             user_input = input("Enter your guess: ")
