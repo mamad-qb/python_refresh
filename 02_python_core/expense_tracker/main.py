@@ -1,9 +1,63 @@
+# ==========================================
+# Project: Expense Tracker (CLI)
+# Author: Mohammad Ghorbanzadeh
+# Repository: python_refresh
+#
+# Features:
+# - Add expenses
+# - Edit expenses
+# - Delete expenses
+# - Show all expenses
+# - Calculate total expenses
+# - Save data to JSON
+# - Load data from JSON
+#
+# Concepts Practiced:
+# - Functions
+# - Lists & Dictionaries
+# - Loops
+# - Input Validation
+# - File Handling
+# - JSON Serialization
+# - CRUD Operations
+# ==========================================
+import json
 
-expenses = []
+
+def load_file():
+    with open ("expense.json", "r") as file:
+        intery = []
+        intery = json.load(file)
+        return intery
+
+def save_file():
+    with open("expense.json", "w") as f:
+        json.dump(expenses, f)
+
+
+
+expenses = load_file()
 CATEGORIES = ["food", "home", "car", "transportation", "cloth", "others"]
 
+def get_amount():
+    while True:
+        money = input("enter the amount: ")
+        if money.isdigit():
+            money = abs(int(money))
+            
+            return money
+        else:
+            print("please insert a number")
 
-def print_categpry():
+def get_description():
+    while True:
+        desc = input("Enter the discription: ")
+        if not desc:
+            print("please insert a discription")
+        else:
+            return desc
+
+def print_categories():
         for index, cat  in enumerate(CATEGORIES, start = 1):
             print(f"{index}. {cat}")
 
@@ -24,36 +78,31 @@ def number_validation(ITEMM):
 
 def add_expenses():
     print("\n Add new expense") 
-    while True:
-        amount = input("Enter the amount")
-        if amount.isdigit():
-            amount = int(abs(amount))
-            break
-        else:
-            print("insert a number")
+    amount = get_amount()
 
-    while True:
-        print_categpry()
-        category = number_validation(CATEGORIES)
+    print_categories()
+    category = number_validation(CATEGORIES)
 
-        description = input("enter description: ")
+    description = get_description()
 
-        expens = {
-            "amount" : int(amount),
+    expens = {
+            "amount" : amount,
             "category" : CATEGORIES[(category - 1)],
             "description" : description
             }
+    expenses.append(expens)
+    save_file()
+        
 
-        expenses.append(expens)
-
-        print("expense added successfully")
-        break
+    print("expense added successfully")
 
 
 def show_expenses():
     if not expenses:
         print("no expense added")
         return
+    print(type(expenses))
+    print(expenses)
 
     for index, expense in enumerate(expenses, start=1):
         print(
@@ -74,7 +123,10 @@ def show_total():
 def edit_expense():
     show_expenses()
     while True:
-        edit = number_validation(expenses)
+        if not expenses:
+            break
+        else:
+            edit = number_validation(expenses)
         print(
                     "\nselect the topic"
                     "\n1. amount" \
@@ -89,18 +141,21 @@ def edit_expense():
                             if chosse == 1:
                                 amount = int(input("enter the new amount: "))
                                 expenses[(edit - 1)]["amount"] = amount
+                                save_file()
                                 print("changed successfully")
                                 break
                             elif chosse == 2:
-                                print_categpry()
+                                print_categories()
                                 category = number_validation(CATEGORIES)
-                                expenses[(edit - 1)]["category"] = CATEGORIES[category]
+                                expenses[(edit - 1)]["category"] = CATEGORIES[(category - 1)]
                                 print("changed successfully")
+                                save_file()
                                 break
                             elif chosse == 3:
                                 descrip = input("enter the new description: ")
                                 expenses[(edit - 1)]["description"] = descrip
                                 print("changed successfully")
+                                save_file()
                                 break
                         else:
                             print("insert the correct number")
@@ -117,10 +172,10 @@ def dlet_data():
     while True:
         dlet = input("enter the number: ")
         if dlet.isdigit():
-            print(len(expenses))
             if int(dlet) in range (1, len(expenses) + 1):
                 dlet = int(dlet)
                 expenses.pop(dlet - 1)
+                save_file()
                 print("dleted successfully")
                 break
             else:
