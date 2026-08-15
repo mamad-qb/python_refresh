@@ -1,0 +1,111 @@
+﻿book_id,title,author,category,year,pages,rating,copies,available_copies
+1001,The Hobbit,J.R.R. Tolkien,Fantasy,1937,310,4.8,5,3
+1002,1984,George Orwell,Dystopian,1949,328,4.7,6,2
+1003,Animal Farm,George Orwell,Satire,1945,112,4.6,4,4
+1004,Pride and Prejudice,Jane Austen,Romance,1813,432,4.8,5,2
+1005,The Great Gatsby,F. Scott Fitzgerald,Classic,1925,180,4.5,4,1
+1006,To Kill a Mockingbird,Harper Lee,Classic,1960,336,4.8,6,4
+1007,The Catcher in the Rye,J.D. Salinger,Classic,1951,277,4.2,4,2
+1008,Brave New World,Aldous Huxley,Dystopian,1932,268,4.5,5,3
+1009,Fahrenheit 451,Ray Bradbury,Dystopian,1953,249,4.6,5,2
+1010,The Alchemist,Paulo Coelho,Fiction,1988,208,4.4,7,5
+1011,Harry Potter and the Philosopher's Stone,J.K. Rowling,Fantasy,1997,309,4.9,8,5
+1012,Harry Potter and the Chamber of Secrets,J.K. Rowling,Fantasy,1998,341,4.8,7,4
+1013,Harry Potter and the Prisoner of Azkaban,J.K. Rowling,Fantasy,1999,435,4.9,8,3
+1014,Harry Potter and the Goblet of Fire,J.K. Rowling,Fantasy,2000,734,4.8,6,2
+1015,The Fellowship of the Ring,J.R.R. Tolkien,Fantasy,1954,423,4.9,7,3
+1016,The Two Towers,J.R.R. Tolkien,Fantasy,1954,352,4.8,6,4
+1017,The Return of the King,J.R.R. Tolkien,Fantasy,1955,416,4.9,7,2
+1018,Dune,Frank Herbert,Science Fiction,1965,688,4.8,6,1
+1019,Foundation,Isaac Asimov,Science Fiction,1951,255,4.6,4,2
+1020,Neuromancer,William Gibson,Science Fiction,1984,271,4.3,3,1
+1021,The Martian,Andy Weir,Science Fiction,2011,369,4.7,5,3
+1022,Project Hail Mary,Andy Weir,Science Fiction,2021,496,4.9,6,4
+1023,Sapiens,Yuval Noah Harari,History,2011,443,4.7,6,3
+1024,Homo Deus,Yuval Noah Harari,History,2015,449,4.4,4,2
+1025,Educated,Tara Westover,Memoir,2018,334,4.7,5,3
+1026,Becoming,Michelle Obama,Memoir,2018,448,4.7,5,2
+1027,Atomic Habits,James Clear,Self-Help,2018,320,4.8,8,5
+1028,Deep Work,Cal Newport,Productivity,2016,296,4.6,5,2
+1029,The 7 Habits of Highly Effective People,Stephen R. Covey,Self-Help,1989,464,4.6,5,1
+1030,"Thinking, Fast and Slow",Daniel Kahneman,Psychology,2011,499,4.5,4,2
+1031,The Psychology of Money,Morgan Housel,Finance,2020,256,4.7,7,4
+1032,Rich Dad Poor Dad,Robert Kiyosaki,Finance,1997,336,4.3,6,3
+1033,The Intelligent Investor,Benjamin Graham,Finance,1949,640,4.5,3,1
+1034,Zero to One,Peter Thiel,Business,2014,224,4.4,4,2
+1035,Good to Great,Jim Collins,Business,2001,400,4.5,5,2
+1036,The Lean Startup,Eric Ries,Business,2011,336,4.4,5,3
+1037,Start with Why,Simon Sinek,Business,2009,256,4.5,4,1
+1038,Outliers,Malcolm Gladwell,Psychology,2008,309,4.5,5,3
+1039,Blink,Malcolm Gladwell,Psychology,2005,296,4.2,4,2
+1040,Man's Search for Meaning,Viktor E. Frankl,Psychology,1946,165,4.8,5,4
+1041,Meditations,Marcus Aurelius,Philosophy,180,254,4.7,4,2
+1042,The Republic,Plato,Philosophy,-380,416,4.4,3,1
+1043,Thus Spoke Zarathustra,Friedrich Nietzsche,Philosophy,1883,352,4.3,3,2
+1044,The Art of War,Sun Tzu,Philosophy,-500,273,4.5,5,3
+1045,Crime and Punishment,Fyodor Dostoevsky,Classic,1866,671,4.7,4,2
+1046,The Brothers Karamazov,Fyodor Dostoevsky,Classic,1880,796,4.8,3,1
+1047,Anna Karenina,Leo Tolstoy,Classic,1878,864,4.6,4,2
+1048,War and Peace,Leo Tolstoy,Classic,1869,1225,4.7,3,1
+1049,The Picture of Dorian Gray,Oscar Wilde,Classic,1890,254,4.5,4,3
+1050,Jane Eyre,Charlotte Brontë,Classic,1847,532,4.7,5,2
+1051,Wuthering Heights,Emily Brontë,Classic,1847,416,4.4,4,2
+1052,The Old Man and the Sea,Ernest Hemingway,Classic,1952,128,4.5,4,3
+1053,For Whom the Bell Tolls,Ernest Hemingway,Classic,1940,480,4.3,3,1
+1054,The Grapes of Wrath,John Steinbeck,Classic,1939,528,4.6,4,2
+1055,Of Mice and Men,John Steinbeck,Classic,1937,107,4.5,5,4
+1056,The Road,Cormac McCarthy,Dystopian,2006,287,4.4,4,1
+1057,The Handmaid's Tale,Margaret Atwood,Dystopian,1985,311,4.6,5,2
+1058,Never Let Me Go,Kazuo Ishiguro,Dystopian,2005,288,4.3,4,2
+1059,The Name of the Wind,Patrick Rothfuss,Fantasy,2007,662,4.8,5,2
+1060,A Game of Thrones,George R.R. Martin,Fantasy,1996,694,4.8,8,3
+1061,A Clash of Kings,George R.R. Martin,Fantasy,1998,768,4.7,6,2
+1062,"The Lion, the Witch and the Wardrobe",C.S. Lewis,Fantasy,1950,208,4.7,6,4
+1063,The Chronicles of Narnia,C.S. Lewis,Fantasy,1956,767,4.8,5,3
+1064,The Little Prince,Antoine de Saint-Exupéry,Fiction,1943,96,4.8,8,5
+1065,The Kite Runner,Khaled Hosseini,Fiction,2003,371,4.7,5,2
+1066,A Thousand Splendid Suns,Khaled Hosseini,Fiction,2007,372,4.7,5,3
+1067,Life of Pi,Yann Martel,Fiction,2001,319,4.5,4,2
+1068,The Book Thief,Markus Zusak,Historical Fiction,2005,584,4.7,5,1
+1069,All the Light We Cannot See,Anthony Doerr,Historical Fiction,2014,531,4.6,4,2
+1070,The Nightingale,Kristin Hannah,Historical Fiction,2015,440,4.7,5,3
+1071,The Da Vinci Code,Dan Brown,Mystery,2003,489,4.2,6,3
+1072,Gone Girl,Gillian Flynn,Mystery,2012,422,4.4,5,2
+1073,The Girl with the Dragon Tattoo,Stieg Larsson,Mystery,2005,465,4.4,4,1
+1074,Murder on the Orient Express,Agatha Christie,Mystery,1934,274,4.6,5,3
+1075,And Then There Were None,Agatha Christie,Mystery,1939,272,4.7,6,4
+1076,The Hound of the Baskervilles,Arthur Conan Doyle,Mystery,1902,256,4.5,4,2
+1077,The Silent Patient,Alex Michaelides,Mystery,2019,336,4.5,6,2
+1078,The Shining,Stephen King,Horror,1977,447,4.5,5,2
+1079,It,Stephen King,Horror,1986,1138,4.6,4,1
+1080,Pet Sematary,Stephen King,Horror,1983,374,4.4,3,1
+1081,Dracula,Bram Stoker,Horror,1897,418,4.5,5,3
+1082,Frankenstein,Mary Shelley,Horror,1818,280,4.6,5,3
+1083,The Haunting of Hill House,Shirley Jackson,Horror,1959,182,4.3,3,1
+1084,The Fault in Our Stars,John Green,Romance,2012,313,4.4,5,2
+1085,Me Before You,Jojo Moyes,Romance,2012,369,4.5,5,3
+1086,Normal People,Sally Rooney,Romance,2018,273,4.1,4,2
+1087,The Notebook,Nicholas Sparks,Romance,1996,214,4.2,4,2
+1088,The Seven Husbands of Evelyn Hugo,Taylor Jenkins Reid,Romance,2017,400,4.6,6,4
+1089,The Midnight Library,Matt Haig,Fiction,2020,304,4.4,7,4
+1090,Klara and the Sun,Kazuo Ishiguro,Science Fiction,2021,303,4.3,4,2
+1091,The Invisible Man,H.G. Wells,Science Fiction,1897,162,4.4,4,3
+1092,The Time Machine,H.G. Wells,Science Fiction,1895,118,4.5,4,3
+1093,Do Androids Dream of Electric Sheep?,Philip K. Dick,Science Fiction,1968,244,4.4,3,1
+1094,The Innovators,Walter Isaacson,Technology,2014,560,4.5,4,2
+1095,Steve Jobs,Walter Isaacson,Biography,2011,656,4.6,5,2
+1096,Leonardo da Vinci,Walter Isaacson,Biography,2017,624,4.5,4,1
+1097,Einstein: His Life and Universe,Walter Isaacson,Biography,2007,675,4.5,3,1
+1098,"Surely You're Joking, Mr. Feynman!",Richard Feynman,Biography,1985,350,4.8,4,2
+1099,A Brief History of Time,Stephen Hawking,Science,1988,256,4.6,5,3
+1100,Cosmos,Carl Sagan,Science,1980,365,4.7,5,2
+1101,The Selfish Gene,Richard Dawkins,Science,1976,360,4.5,4,2
+1102,"Guns, Germs, and Steel",Jared Diamond,History,1997,528,4.5,4,1
+1103,The Silk Roads,Peter Frankopan,History,2015,636,4.4,3,1
+1104,Prisoners of Geography,Tim Marshall,Geography,2015,320,4.5,5,3
+1105,The Design of Everyday Things,Don Norman,Design,1988,368,4.6,4,2
+1106,Don't Make Me Think,Steve Krug,Design,2000,216,4.7,5,4
+1107,Clean Code,Robert C. Martin,Technology,2008,464,4.6,6,2
+1108,The Pragmatic Programmer,"Andrew Hunt, David Thomas",Technology,1999,352,4.8,5,2
+1109,Python Crash Course,Eric Matthes,Technology,2015,544,4.7,6,4
+1110,Automate the Boring Stuff with Python,Al Sweigart,Technology,2015,592,4.7,5,3
